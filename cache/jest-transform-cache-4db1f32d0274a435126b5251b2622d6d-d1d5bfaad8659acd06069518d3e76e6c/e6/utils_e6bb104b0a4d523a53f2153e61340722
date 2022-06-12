@@ -1,0 +1,16 @@
+1a563bfdba9e65feba5811a53e2d4d6a
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.toArray = toArray;
+
+function toArray(object) {
+  if (!Array.isArray(object)) {
+    return [object];
+  }
+
+  return object;
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFPLFNBQVNBLE9BQVQsQ0FBb0JDLE1BQXBCLEVBQTBDO0VBQy9DLElBQUksQ0FBQ0MsS0FBSyxDQUFDQyxPQUFORCxDQUFjRCxNQUFkQyxDQUFMLEVBQTRCO0lBQzFCLE9BQU8sQ0FBQ0QsTUFBRCxDQUFQO0VBQ0Q7O0VBRUQsT0FBT0EsTUFBUDtBQUNEIiwibmFtZXMiOlsidG9BcnJheSIsIm9iamVjdCIsIkFycmF5IiwiaXNBcnJheSJdLCJzb3VyY2VzIjpbInV0aWxzLnRzIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBmdW5jdGlvbiB0b0FycmF5PFQ+KG9iamVjdDogVCB8IFRbXSk6IFRbXSB7XG4gIGlmICghQXJyYXkuaXNBcnJheShvYmplY3QpKSB7XG4gICAgcmV0dXJuIFtvYmplY3RdO1xuICB9XG5cbiAgcmV0dXJuIG9iamVjdDtcbn1cbiJdfQ==

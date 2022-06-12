@@ -1,0 +1,23 @@
+7623518ccb0b5d594608b6082248e663
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "AirbnbRating", {
+  enumerable: true,
+  get: function get() {
+    return _TapRating.default;
+  }
+});
+Object.defineProperty(exports, "Rating", {
+  enumerable: true,
+  get: function get() {
+    return _SwipeRating.default;
+  }
+});
+
+var _SwipeRating = _interopRequireDefault(require("./SwipeRating"));
+
+var _TapRating = _interopRequireDefault(require("./TapRating"));
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sInNvdXJjZXMiOlsiaW5kZXguanMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJhdGluZyBmcm9tIFwiLi9Td2lwZVJhdGluZ1wiO1xuaW1wb3J0IEFpcmJuYlJhdGluZyBmcm9tIFwiLi9UYXBSYXRpbmdcIjtcbmV4cG9ydCB7IFJhdGluZywgQWlyYm5iUmF0aW5nIH07XG4iXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBOztBQUNBIn0=

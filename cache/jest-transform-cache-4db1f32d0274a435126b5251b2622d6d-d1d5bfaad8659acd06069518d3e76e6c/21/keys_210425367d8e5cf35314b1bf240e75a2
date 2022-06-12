@@ -1,0 +1,17 @@
+79f5b0ceced340a5507d1d538a664c06
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
+  firebaseConfig: {
+    apiKey: "AIzaSyDK7CJULYyfRBmdUQ9eVysWp8JlRGAtjUc",
+    authDomain: "campus-cart-f4763.firebaseapp.com",
+    projectId: "campus-cart-f4763",
+    storageBucket: "campus-cart-f4763.appspot.com",
+    messagingSenderId: "301409509063",
+    appId: "1:301409509063:web:fb1e385942de7ab43668e2"
+  }
+};
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJmaXJlYmFzZUNvbmZpZyIsImFwaUtleSIsImF1dGhEb21haW4iLCJwcm9qZWN0SWQiLCJzdG9yYWdlQnVja2V0IiwibWVzc2FnaW5nU2VuZGVySWQiLCJhcHBJZCJdLCJzb3VyY2VzIjpbImtleXMuanMiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQge1xyXG4gICAgZmlyZWJhc2VDb25maWc6IHtcclxuICAgICAgICBhcGlLZXk6IFwiQUl6YVN5REs3Q0pVTFl5ZlJCbWRVUTllVnlzV3A4SmxSR0F0alVjXCIsXHJcbiAgICAgICAgYXV0aERvbWFpbjogXCJjYW1wdXMtY2FydC1mNDc2My5maXJlYmFzZWFwcC5jb21cIixcclxuICAgICAgICBwcm9qZWN0SWQ6IFwiY2FtcHVzLWNhcnQtZjQ3NjNcIixcclxuICAgICAgICBzdG9yYWdlQnVja2V0OiBcImNhbXB1cy1jYXJ0LWY0NzYzLmFwcHNwb3QuY29tXCIsXHJcbiAgICAgICAgbWVzc2FnaW5nU2VuZGVySWQ6IFwiMzAxNDA5NTA5MDYzXCIsXHJcbiAgICAgICAgYXBwSWQ6IFwiMTozMDE0MDk1MDkwNjM6d2ViOmZiMWUzODU5NDJkZTdhYjQzNjY4ZTJcIlxyXG4gIH1cclxuICB9Il0sIm1hcHBpbmdzIjoiOzs7O2VBQWU7RUFDWEEsY0FBYyxFQUFFO0lBQ1pDLE1BQU0sRUFBRSx5Q0FESTtJQUVaQyxVQUFVLEVBQUUsbUNBRkE7SUFHWkMsU0FBUyxFQUFFLG1CQUhDO0lBSVpDLGFBQWEsRUFBRSwrQkFKSDtJQUtaQyxpQkFBaUIsRUFBRSxjQUxQO0lBTVpDLEtBQUssRUFBRTtFQU5LO0FBREwsQyJ9

@@ -1,0 +1,84 @@
+2ac15441e3c8e8e0148d6399d7ab5bdf
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.Checkbox = void 0;
+
+var React = _interopRequireWildcard(require("react"));
+
+var _reactNative = require("react-native");
+
+var _CheckboxIOS = _interopRequireDefault(require("./CheckboxIOS"));
+
+var _CheckboxAndroid = _interopRequireDefault(require("./CheckboxAndroid"));
+
+var _theming = require("../../core/theming");
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    default: obj
+  };
+}
+
+function _getRequireWildcardCache(nodeInterop) {
+  if (typeof WeakMap !== "function") return null;
+  var cacheBabelInterop = new WeakMap();
+  var cacheNodeInterop = new WeakMap();
+  return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) {
+    return nodeInterop ? cacheNodeInterop : cacheBabelInterop;
+  })(nodeInterop);
+}
+
+function _interopRequireWildcard(obj, nodeInterop) {
+  if (!nodeInterop && obj && obj.__esModule) {
+    return obj;
+  }
+
+  if (obj === null || typeof obj !== "object" && typeof obj !== "function") {
+    return {
+      default: obj
+    };
+  }
+
+  var cache = _getRequireWildcardCache(nodeInterop);
+
+  if (cache && cache.has(obj)) {
+    return cache.get(obj);
+  }
+
+  var newObj = {};
+  var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
+
+  for (var key in obj) {
+    if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) {
+      var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
+
+      if (desc && (desc.get || desc.set)) {
+        Object.defineProperty(newObj, key, desc);
+      } else {
+        newObj[key] = obj[key];
+      }
+    }
+  }
+
+  newObj.default = obj;
+
+  if (cache) {
+    cache.set(obj, newObj);
+  }
+
+  return newObj;
+}
+
+var Checkbox = function Checkbox(props) {
+  return _reactNative.Platform.OS === 'ios' ? React.createElement(_CheckboxIOS.default, props) : React.createElement(_CheckboxAndroid.default, props);
+};
+
+var _default = (0, _theming.withTheme)(Checkbox);
+
+exports.default = _default;
+var CheckboxWithTheme = (0, _theming.withTheme)(Checkbox);
+exports.Checkbox = CheckboxWithTheme;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFBOztBQUNBOztBQUNBOztBQUNBOztBQUNBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBNEVBLElBQU1BLFFBQVEsR0FBSUMsU0FBWkQsUUFBWUMsTUFBRDtFQUFBLE9BQ2ZDLHNCQUFTQyxFQUFURCxLQUFnQixLQUFoQkEsR0FDRUUsb0JBQUNDLG9CQUFELEVBQWlCSixLQUFqQixDQURGQyxHQUdFRSxvQkFBQ0Usd0JBQUQsRUFBcUJMLEtBQXJCLENBSmE7QUFBQSxDQUFqQjs7ZUFPZSx3QkFBVUQsUUFBVjs7O0FBR2YsSUFBTU8saUJBQWlCLEdBQUcsd0JBQVVQLFFBQVYsQ0FBMUIiLCJuYW1lcyI6WyJDaGVja2JveCIsInByb3BzIiwiUGxhdGZvcm0iLCJPUyIsIlJlYWN0IiwiX0NoZWNrYm94SU9TIiwiX0NoZWNrYm94QW5kcm9pZCIsIkNoZWNrYm94V2l0aFRoZW1lIl0sInNvdXJjZXMiOlsiQ2hlY2tib3gudHN4Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAqIGFzIFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCB7IFBsYXRmb3JtIH0gZnJvbSAncmVhY3QtbmF0aXZlJztcbmltcG9ydCBDaGVja2JveElPUyBmcm9tICcuL0NoZWNrYm94SU9TJztcbmltcG9ydCBDaGVja2JveEFuZHJvaWQgZnJvbSAnLi9DaGVja2JveEFuZHJvaWQnO1xuaW1wb3J0IHsgd2l0aFRoZW1lIH0gZnJvbSAnLi4vLi4vY29yZS90aGVtaW5nJztcblxudHlwZSBQcm9wcyA9IHtcbiAgLyoqXG4gICAqIFN0YXR1cyBvZiBjaGVja2JveC5cbiAgICovXG4gIHN0YXR1czogJ2NoZWNrZWQnIHwgJ3VuY2hlY2tlZCcgfCAnaW5kZXRlcm1pbmF0ZSc7XG4gIC8qKlxuICAgKiBXaGV0aGVyIGNoZWNrYm94IGlzIGRpc2FibGVkLlxuICAgKi9cbiAgZGlzYWJsZWQ/OiBib29sZWFuO1xuICAvKipcbiAgICogRnVuY3Rpb24gdG8gZXhlY3V0ZSBvbiBwcmVzcy5cbiAgICovXG4gIG9uUHJlc3M/OiAoKSA9PiB2b2lkO1xuICAvKipcbiAgICogQ3VzdG9tIGNvbG9yIGZvciB1bmNoZWNrZWQgY2hlY2tib3guXG4gICAqL1xuICB1bmNoZWNrZWRDb2xvcj86IHN0cmluZztcbiAgLyoqXG4gICAqIEN1c3RvbSBjb2xvciBmb3IgY2hlY2tib3guXG4gICAqL1xuICBjb2xvcj86IHN0cmluZztcbiAgLyoqXG4gICAqIEBvcHRpb25hbFxuICAgKi9cbiAgdGhlbWU6IFJlYWN0TmF0aXZlUGFwZXIuVGhlbWU7XG4gIC8qKlxuICAgKiB0ZXN0SUQgdG8gYmUgdXNlZCBvbiB0ZXN0cy5cbiAgICovXG4gIHRlc3RJRD86IHN0cmluZztcbn07XG5cbi8qKlxuICogQ2hlY2tib3hlcyBhbGxvdyB0aGUgc2VsZWN0aW9uIG9mIG11bHRpcGxlIG9wdGlvbnMgZnJvbSBhIHNldC5cbiAqXG4gKiA8ZGl2IGNsYXNzPVwic2NyZWVuc2hvdHNcIj5cbiAqICAgPGZpZ3VyZT5cbiAqICAgICA8aW1nIHNyYz1cInNjcmVlbnNob3RzL2NoZWNrYm94LWVuYWJsZWQuYW5kcm9pZC5wbmdcIiAvPlxuICogICAgIDxmaWdjYXB0aW9uPkFuZHJvaWQgKGVuYWJsZWQpPC9maWdjYXB0aW9uPlxuICogICA8L2ZpZ3VyZT5cbiAqICAgPGZpZ3VyZT5cbiAqICAgICA8aW1nIHNyYz1cInNjcmVlbnNob3RzL2NoZWNrYm94LWRpc2FibGVkLmFuZHJvaWQucG5nXCIgLz5cbiAqICAgICA8ZmlnY2FwdGlvbj5BbmRyb2lkIChkaXNhYmxlZCk8L2ZpZ2NhcHRpb24+XG4gKiAgIDwvZmlndXJlPlxuICogICA8ZmlndXJlPlxuICogICAgIDxpbWcgc3JjPVwic2NyZWVuc2hvdHMvY2hlY2tib3gtZW5hYmxlZC5pb3MucG5nXCIgLz5cbiAqICAgICA8ZmlnY2FwdGlvbj5pT1MgKGVuYWJsZWQpPC9maWdjYXB0aW9uPlxuICogICA8L2ZpZ3VyZT5cbiAqICAgPGZpZ3VyZT5cbiAqICAgICA8aW1nIHNyYz1cInNjcmVlbnNob3RzL2NoZWNrYm94LWRpc2FibGVkLmlvcy5wbmdcIiAvPlxuICogICAgIDxmaWdjYXB0aW9uPmlPUyAoZGlzYWJsZWQpPC9maWdjYXB0aW9uPlxuICogICA8L2ZpZ3VyZT5cbiAqIDwvZGl2PlxuICpcbiAqICMjIFVzYWdlXG4gKiBgYGBqc1xuICogaW1wb3J0ICogYXMgUmVhY3QgZnJvbSAncmVhY3QnO1xuICogaW1wb3J0IHsgQ2hlY2tib3ggfSBmcm9tICdyZWFjdC1uYXRpdmUtcGFwZXInO1xuICpcbiAqIGNvbnN0IE15Q29tcG9uZW50ID0gKCkgPT4ge1xuICogICBjb25zdCBbY2hlY2tlZCwgc2V0Q2hlY2tlZF0gPSBSZWFjdC51c2VTdGF0ZShmYWxzZSk7XG4gKlxuICogICByZXR1cm4gKFxuICogICAgIDxDaGVja2JveFxuICogICAgICAgc3RhdHVzPXtjaGVja2VkID8gJ2NoZWNrZWQnIDogJ3VuY2hlY2tlZCd9XG4gKiAgICAgICBvblByZXNzPXsoKSA9PiB7XG4gKiAgICAgICAgIHNldENoZWNrZWQoIWNoZWNrZWQpO1xuICogICAgICAgfX1cbiAqICAgICAvPlxuICogICApO1xuICogfTtcbiAqXG4gKiBleHBvcnQgZGVmYXVsdCBNeUNvbXBvbmVudDtcbiAqIGBgYFxuICovXG5jb25zdCBDaGVja2JveCA9IChwcm9wczogUHJvcHMpID0+XG4gIFBsYXRmb3JtLk9TID09PSAnaW9zJyA/IChcbiAgICA8Q2hlY2tib3hJT1Mgey4uLnByb3BzfSAvPlxuICApIDogKFxuICAgIDxDaGVja2JveEFuZHJvaWQgey4uLnByb3BzfSAvPlxuICApO1xuXG5leHBvcnQgZGVmYXVsdCB3aXRoVGhlbWUoQ2hlY2tib3gpO1xuXG4vLyBAY29tcG9uZW50LWRvY3MgaWdub3JlLW5leHQtbGluZVxuY29uc3QgQ2hlY2tib3hXaXRoVGhlbWUgPSB3aXRoVGhlbWUoQ2hlY2tib3gpO1xuLy8gQGNvbXBvbmVudC1kb2NzIGlnbm9yZS1uZXh0LWxpbmVcbmV4cG9ydCB7IENoZWNrYm94V2l0aFRoZW1lIGFzIENoZWNrYm94IH07XG4iXX0=

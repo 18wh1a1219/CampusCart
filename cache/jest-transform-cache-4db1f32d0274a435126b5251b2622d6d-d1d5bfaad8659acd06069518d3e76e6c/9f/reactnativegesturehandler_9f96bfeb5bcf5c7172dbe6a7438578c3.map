@@ -1,0 +1,1 @@
+{"version":3,"names":["mockedModule","jest","mock","module","exports"],"sources":["react-native-gesture-handler.js"],"sourcesContent":["const mockedModule = jest.mock('react-native-gesture-handler');\r\n\r\nmodule.exports = mockedModule;"],"mappings":"AAAA,IAAMA,YAAY,GAAGC,IAAI,CAACC,IAAL,CAAU,8BAAV,CAArB;AAEAC,MAAM,CAACC,OAAP,GAAiBJ,YAAjB"}

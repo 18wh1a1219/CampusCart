@@ -1,0 +1,14 @@
+7037a3d4249ec8579362a8a27568c169
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _reactNative = require("react-native");
+
+var RNGestureHandlerButton = (0, _reactNative.requireNativeComponent)('RNGestureHandlerButton');
+var _default = RNGestureHandlerButton;
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFBOztBQUVBLElBQU1BLHNCQUFxRCxHQUFHLHlDQUM1RCx3QkFENEQsQ0FBOUQ7ZUFJZUEiLCJuYW1lcyI6WyJSTkdlc3R1cmVIYW5kbGVyQnV0dG9uIl0sInNvdXJjZXMiOlsiR2VzdHVyZUhhbmRsZXJCdXR0b24udHN4Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEhvc3RDb21wb25lbnQsIHJlcXVpcmVOYXRpdmVDb21wb25lbnQgfSBmcm9tICdyZWFjdC1uYXRpdmUnO1xuaW1wb3J0IHsgUmF3QnV0dG9uUHJvcHMgfSBmcm9tICcuL0dlc3R1cmVCdXR0b25zJztcbmNvbnN0IFJOR2VzdHVyZUhhbmRsZXJCdXR0b246IEhvc3RDb21wb25lbnQ8UmF3QnV0dG9uUHJvcHM+ID0gcmVxdWlyZU5hdGl2ZUNvbXBvbmVudChcbiAgJ1JOR2VzdHVyZUhhbmRsZXJCdXR0b24nXG4pO1xuXG5leHBvcnQgZGVmYXVsdCBSTkdlc3R1cmVIYW5kbGVyQnV0dG9uO1xuIl19

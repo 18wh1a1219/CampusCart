@@ -1,0 +1,182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  accessibilityIgnoresInvertColors={true}
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "height": "20%",
+      "justifyContent": "center",
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "process": [Function],
+      }
+    }
+    style={
+      Array [
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        Object {
+          "height": "20%",
+          "width": undefined,
+        },
+        undefined,
+      ]
+    }
+  />
+  <Text
+    style={
+      Object {
+        "color": "black",
+        "fontSize": 22,
+        "fontWeight": "bold",
+        "margin": 10,
+        "marginTop": 90,
+        "textAlign": "center",
+      }
+    }
+  >
+    Sign In 
+  </Text>
+  <View
+    style={
+      Object {
+        "marginBottom": 25,
+        "marginTop": 25,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "paddingTop": 18,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#aaa",
+            "fontSize": 15,
+            "left": 0,
+            "position": "absolute",
+            "top": 18,
+          }
+        }
+      >
+        Email
+      </Text>
+      <TextInput
+        autoCapitalize="none"
+        blurOnSubmit={true}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        style={
+          Object {
+            "borderBottomColor": "#555",
+            "borderBottomWidth": 1,
+            "color": "#000",
+            "fontSize": 20,
+            "height": 50,
+            "marginBottom": 15,
+            "width": 350,
+          }
+        }
+        value=""
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "paddingTop": 18,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#aaa",
+            "fontSize": 15,
+            "left": 0,
+            "position": "absolute",
+            "top": 18,
+          }
+        }
+      >
+        Password
+      </Text>
+      <TextInput
+        blurOnSubmit={true}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        secureTextEntry={true}
+        style={
+          Object {
+            "borderBottomColor": "#555",
+            "borderBottomWidth": 1,
+            "color": "#000",
+            "fontSize": 20,
+            "height": 50,
+            "marginBottom": 15,
+            "width": 350,
+          }
+        }
+        value=""
+      />
+    </View>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignSelf": "center",
+        "backgroundColor": "#ffd60a",
+        "borderColor": "#ffd60a",
+        "borderRadius": 15,
+        "borderWidth": 3,
+        "color": "white",
+        "height": 73,
+        "margin": "2%",
+        "opacity": 1,
+        "padding": "5%",
+        "width": 350,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "black",
+          "fontSize": 18,
+          "fontWeight": "bold",
+          "textAlign": "center",
+        }
+      }
+    >
+      Sign In
+    </Text>
+  </View>
+</View>
+`;

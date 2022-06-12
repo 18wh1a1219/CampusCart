@@ -1,0 +1,8 @@
+beb482988bcff6e8f90f92fe588f41ce
+module.exports = {
+  process: function () {
+    return {
+      code: 'module.exports = ""'
+    };
+  }
+};

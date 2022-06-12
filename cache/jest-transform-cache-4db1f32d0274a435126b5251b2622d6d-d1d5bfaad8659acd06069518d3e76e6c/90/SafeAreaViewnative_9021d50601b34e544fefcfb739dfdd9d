@@ -1,0 +1,13 @@
+2d5eb11f19c1f4c5088137667ef4063f
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.SafeAreaView = void 0;
+
+var _reactNative = require("react-native");
+
+var SafeAreaView = (0, _reactNative.requireNativeComponent)('RNCSafeAreaView');
+exports.SafeAreaView = SafeAreaView;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFBOztBQUdPLElBQU1BLFlBQVksR0FDdkIseUNBQWdELGlCQUFoRCxDQURLIiwibmFtZXMiOlsiU2FmZUFyZWFWaWV3Il0sInNvdXJjZXMiOlsiU2FmZUFyZWFWaWV3Lm5hdGl2ZS50c3giXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgcmVxdWlyZU5hdGl2ZUNvbXBvbmVudCB9IGZyb20gJ3JlYWN0LW5hdGl2ZSc7XG5pbXBvcnQgeyBOYXRpdmVTYWZlQXJlYVZpZXdQcm9wcyB9IGZyb20gJy4vU2FmZUFyZWEudHlwZXMnO1xuXG5leHBvcnQgY29uc3QgU2FmZUFyZWFWaWV3ID1cbiAgcmVxdWlyZU5hdGl2ZUNvbXBvbmVudDxOYXRpdmVTYWZlQXJlYVZpZXdQcm9wcz4oJ1JOQ1NhZmVBcmVhVmlldycpO1xuIl19

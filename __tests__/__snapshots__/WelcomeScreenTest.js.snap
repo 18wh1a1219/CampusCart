@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  accessibilityIgnoresInvertColors={true}
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "height": "75%",
+      "justifyContent": "center",
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "process": [Function],
+      }
+    }
+    style={
+      Array [
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        Object {
+          "height": "75%",
+          "width": undefined,
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    style={
+      Object {
+        "position": "absolute",
+        "top": 35,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 35,
+          "fontWeight": "bold",
+          "textAlign": "center",
+        }
+      }
+    >
+      CampusCart
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 13,
+          "fontWeight": "bold",
+          "textAlign": "center",
+        }
+      }
+    >
+      BVRITH Students Essential Mart
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "marginTop": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "black",
+          "fontSize": 35,
+          "fontWeight": "bold",
+          "marginBottom": "2%",
+          "marginTop": "10%",
+          "textAlign": "center",
+        }
+      }
+    >
+      Welcome!!
+    </Text>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "#ffd60a",
+          "borderColor": "#ffd60a",
+          "borderRadius": 15,
+          "borderWidth": 3,
+          "color": "white",
+          "height": 65,
+          "margin": "2%",
+          "opacity": 1,
+          "padding": "5%",
+          "width": 300,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "black",
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "textAlign": "center",
+          }
+        }
+      >
+        Sign Up
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "#ffd60a",
+          "borderColor": "#ffd60a",
+          "borderRadius": 15,
+          "borderWidth": 3,
+          "height": 65,
+          "margin": "2%",
+          "opacity": 1,
+          "padding": "5%",
+          "width": 300,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "black",
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "textAlign": "center",
+          }
+        }
+      >
+        Sign In
+      </Text>
+    </View>
+  </View>
+</View>
+`;

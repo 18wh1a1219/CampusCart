@@ -1,0 +1,30 @@
+1c5281425eb2d2971fc7be797e628dc2
+_getJestObj().mock('react-native-gesture-handler', function () {
+  return 'TouchableOpacity';
+});
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+require("react-native");
+
+var _react = _interopRequireDefault(require("react"));
+
+var _App = _interopRequireDefault(require("../App"));
+
+var _reactTestRenderer = _interopRequireDefault(require("react-test-renderer"));
+
+function _getJestObj() {
+  var _require = require("@jest/globals"),
+      jest = _require.jest;
+
+  _getJestObj = function _getJestObj() {
+    return jest;
+  };
+
+  return jest;
+}
+
+it('renders correctly', function () {
+  _reactTestRenderer.default.create(_react.default.createElement(_App.default, null));
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJtb2NrIiwiaXQiLCJyZW5kZXJlciIsImNyZWF0ZSJdLCJzb3VyY2VzIjpbIkFwcC10ZXN0LmpzIl0sInNvdXJjZXNDb250ZW50IjpbIi8qKlxuICogQGZvcm1hdFxuICovXG5cbmltcG9ydCAncmVhY3QtbmF0aXZlJztcbmltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgQXBwIGZyb20gJy4uL0FwcCc7XG5cbi8vIE5vdGU6IHRlc3QgcmVuZGVyZXIgbXVzdCBiZSByZXF1aXJlZCBhZnRlciByZWFjdC1uYXRpdmUuXG5pbXBvcnQgcmVuZGVyZXIgZnJvbSAncmVhY3QtdGVzdC1yZW5kZXJlcic7XG5qZXN0Lm1vY2soJ3JlYWN0LW5hdGl2ZS1nZXN0dXJlLWhhbmRsZXInLCAoKSA9PiAnVG91Y2hhYmxlT3BhY2l0eScpO1xuXG5cbml0KCdyZW5kZXJzIGNvcnJlY3RseScsICgpID0+IHtcbiAgcmVuZGVyZXIuY3JlYXRlKDxBcHAgLz4pO1xufSk7XG4iXSwibWFwcGluZ3MiOiJBQVVBLGNBQUtBLElBQUwsQ0FBVSw4QkFBVixFQUEwQztFQUFBLE9BQU0sa0JBQU47QUFBQSxDQUExQzs7OztBQU5BOztBQUNBOztBQUNBOztBQUdBOzs7Ozs7Ozs7Ozs7O0FBSUFDLEVBQUUsQ0FBQyxtQkFBRCxFQUFzQixZQUFNO0VBQzVCQywyQkFBU0MsTUFBVCxDQUFnQiw2QkFBQyxZQUFELE9BQWhCO0FBQ0QsQ0FGQyxDQUFGIn0=

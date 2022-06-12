@@ -1,0 +1,14 @@
+5f8ade6c965fa8fdb59da7c17a2c19e7
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.initialize = initialize;
+
+var _eventReceiver = require("./handlers/gestures/eventReceiver");
+
+function initialize() {
+  (0, _eventReceiver.startListening)();
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFBOztBQUVPLFNBQVNBLFVBQVQsR0FBc0I7RUFDM0I7QUFDRCIsIm5hbWVzIjpbImluaXRpYWxpemUiXSwic291cmNlcyI6WyJpbml0LnRzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IHN0YXJ0TGlzdGVuaW5nIH0gZnJvbSAnLi9oYW5kbGVycy9nZXN0dXJlcy9ldmVudFJlY2VpdmVyJztcblxuZXhwb3J0IGZ1bmN0aW9uIGluaXRpYWxpemUoKSB7XG4gIHN0YXJ0TGlzdGVuaW5nKCk7XG59XG4iXX0=

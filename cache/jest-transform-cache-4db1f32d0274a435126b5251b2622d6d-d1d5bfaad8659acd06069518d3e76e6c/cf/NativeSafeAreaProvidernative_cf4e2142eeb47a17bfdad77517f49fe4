@@ -1,0 +1,14 @@
+205f42e7f551db8528426497d55cffc7
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _reactNative = require("react-native");
+
+var _default = (0, _reactNative.requireNativeComponent)('RNCSafeAreaProvider');
+
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFBOztlQUdlLHlDQUNiLHFCQURhIiwibmFtZXMiOltdLCJzb3VyY2VzIjpbIk5hdGl2ZVNhZmVBcmVhUHJvdmlkZXIubmF0aXZlLnRzeCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyByZXF1aXJlTmF0aXZlQ29tcG9uZW50IH0gZnJvbSAncmVhY3QtbmF0aXZlJztcbmltcG9ydCB7IE5hdGl2ZVNhZmVBcmVhUHJvdmlkZXJQcm9wcyB9IGZyb20gJy4vU2FmZUFyZWEudHlwZXMnO1xuXG5leHBvcnQgZGVmYXVsdCByZXF1aXJlTmF0aXZlQ29tcG9uZW50PE5hdGl2ZVNhZmVBcmVhUHJvdmlkZXJQcm9wcz4oXG4gICdSTkNTYWZlQXJlYVByb3ZpZGVyJyxcbik7XG4iXX0=
